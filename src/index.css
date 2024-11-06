@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-image: url("../img/fundo.png");
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    height: 100vh;
+    max-height: 100vh; 
+    margin: 0; 
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    width: 15%;
+    background-color: #d7d4e6;
+    border-radius: 25px;
+}
+
+.icon-arrow{
+    cursor: pointer;
+}
